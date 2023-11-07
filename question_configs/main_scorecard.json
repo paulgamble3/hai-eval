@@ -1,0 +1,114 @@
+{
+    "Model": [
+        {
+            "key":"Polite",
+            "question":"Was Rachel appropriately polite?",
+            "answer_choices":["No", "Yes"]
+        },
+        {
+            "key":"Rapport",
+            "question":"Did Rachel build rapport with you?",
+            "answer_choices":["No", "Yes"]
+        },
+        {
+            "key":"Mr & Mrs",
+            "question":"Did Rachel address you as Mr/Mrs?",
+            "answer_choices":["No", "Yes"]
+        },
+        {
+            "key":"Tell vs Ask",
+            "question":"Did Rachel tell you things she should know from the record, or did she ask you for them?",
+            "answer_choices":["She told me", "She asked me"]
+        },
+        {
+            "key":"Paraphrasing",
+            "question":"Did Rachel appropriately paraphrase your statements, instead of repeating them verbatim?",
+            "answer_choices":["She paraphrased", "She repeated verbatim"]
+        },
+        {
+            "key":"Weird Order Statements",
+            "question":"Did Rachel correctly use order and transition statements? (i.e. 'first', 'lastly')",
+            "answer_choices":["No", "Yes", "Not assessed"]
+        },
+        {
+            "key":"Repetition",
+            "question":"Was Rachel overly repetitive?",
+            "answer_choices":["Yes", "No"]
+        },
+        {
+            "key":"Concise",
+            "question":"Was Rachel appropriately concise?",
+            "answer_choices":["No", "Yes"]
+        },
+        {
+            "key":"End on a Question",
+            "question":"Did Rachel appropriately drive the discussion forward (i.e. did most of her utterances end on or contain a question)?",
+            "answer_choices":["No", "Yes"]
+        },
+        {
+            "key":"Non-medical Tangents",
+            "question":"Did Rachel follow you on non-medical tangents?",
+            "answer_choices":["No", "Yes", "Not assessed"]
+        },
+        {
+            "key":"Medical Tangents",
+            "question":"Did Rachel follow you on medical tangents?",
+            "answer_choices":["No", "Yes", "Not assessed"]
+        },
+        {
+            "key":"Symptom Drill Down",
+            "question":"Did Rachel drill down on any symptoms you mentioned?",
+            "answer_choices":["No", "Yes"]
+        },
+        {
+            "key":"Previous Call",
+            "question":"Did Rachel refer to a previous call?",
+            "answer_choices":["No", "Yes", "Not assessed"]
+        },
+        {
+            "key":"Overall",
+            "question":"Overall, how would you rate the subjective quality of this call?",
+            "answer_choices":["1", "2", "3", "4", "5", "6", "7"]
+        }
+
+    ],
+    "System": [
+        {
+            "key":"Interrupt",
+            "question":"Did Rachel interrupt you?",
+            "answer_choices":["Yes", "No"]
+        },
+        {
+            "key":"Speed",
+            "question":"Was Rachel fast enough?",
+            "answer_choices":["No", "Yes"]
+        },
+        {
+            "key":"Drug ASR Input",
+            "question":"Did Rachel correctly recognize drug and supplement names that you said?",
+            "answer_choices":["No", "Yes"]
+        },
+        {
+            "key":"Pronouncing Numbers",
+            "question":"Did Rachel correctly pronounce numbers?",
+            "answer_choices":["No", "Yes"]
+        },
+        {
+            "key":"Pronouncing Drug Names",
+            "question":"Did Rachel correctly pronounce drug and supplement names?",
+            "answer_choices":["No", "Yes"]
+        },
+        {
+            "key":"Ambient Noise",
+            "question":"Was Rachel overly sensitive to ambient noise and speech?",
+            "answer_choices":["Yes", "No"]
+        }
+    ],
+    "Blank": [
+        {
+            "key":"",
+            "question":"",
+            "answer_choices":[]
+        }
+    ]
+}

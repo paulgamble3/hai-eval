@@ -1,0 +1,8 @@
+{
+    "models": ["MODEL_C8", "MODEL_D5", "Neel_11-3", "GPT4"], 
+    "script_names": ["CHF", "colonoscopy", "TKR"],
+    "script_name_to_id": {
+        "Script A": "script_a_id",
+        "Script B": "script_b_id"
+    }
+}

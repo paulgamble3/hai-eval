@@ -1,0 +1,146 @@
+[
+  {
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/05125740-2891-4ab1-9e2e-ab491a26ca91/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiZ3B0NCIsInN1cHBvcnRNb2RlbCI6ImxsYW1hIiwibGxtU3RyZWFtaW5nIjp0cnVlLCJ0dHNTdHJlYW1pbmciOnRydWUsInN1cHBvcnRFbmdpbmVzIjpbImRvYi12ZXJpZmljYXRpb24tZW5naW5lIiwiaWRlbnRpdHktdmVyaWZpY2F0aW9uLWVuZ2luZSJdLCJ0ZW1wbGF0ZSI6Im5lZWxfdjIiLCJ0dHMiOiJlbGV2ZW5fbGFic19zb2Z0X2dlbnRsZSIsImFzciI6ImRnLXBob25lY2FsbCIsInNjcmlwdElkIjoiMDJmZTRjYWMtZjQxYy00MGVhLWIzMjMtNzM5ZTUxN2M4NDU5IiwibWV0aG9kIjoidm9pcCIsInBhdGllbnROYW1lIjoiSmFuZXQgV2FuZyIsIm90aGVyU2V0dGluZ3MiOnsiVVNFX0xMQU1BX1YyX1BST01QVF9GT1JNQVQiOmZhbHNlLCJVU0VfRk9MTE9XX1VQU19JTl9LSUNLT1VUX1BST01QVCI6ZmFsc2V9fQ==/?redirect",
+    "config": {
+      "phoneNumber": "",
+      "model": "gpt4",
+      "supportModel": "llama",
+      "llmStreaming": true,
+      "ttsStreaming": true,
+      "supportEngines": [
+        "dob-verification-engine",
+        "identity-verification-engine"
+      ],
+      "template": "neel_v2",
+      "tts": "eleven_labs_soft_gentle",
+      "asr": "dg-phonecall",
+      "scriptId": "02fe4cac-f41c-40ea-b323-739e517c8459",
+      "method": "voip",
+      "patientName": "Janet Wang",
+      "otherSettings": {
+        "USE_LLAMA_V2_PROMPT_FORMAT": false,
+        "USE_FOLLOW_UPS_IN_KICKOUT_PROMPT": false
+      }
+    }
+  },
+  {
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/f6667c6b-c45d-4803-8142-48af986eac55/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiZ3B0NCIsInN1cHBvcnRNb2RlbCI6ImxsYW1hIiwibGxtU3RyZWFtaW5nIjp0cnVlLCJ0dHNTdHJlYW1pbmciOnRydWUsInN1cHBvcnRFbmdpbmVzIjpbImRvYi12ZXJpZmljYXRpb24tZW5naW5lIiwiaWRlbnRpdHktdmVyaWZpY2F0aW9uLWVuZ2luZSJdLCJ0ZW1wbGF0ZSI6Im5lZWxfdjIiLCJ0dHMiOiJlbGV2ZW5fbGFic19zb2Z0X2dlbnRsZSIsImFzciI6ImRnLXBob25lY2FsbCIsInNjcmlwdElkIjoiMDJmZTRjYWMtZjQxYy00MGVhLWIzMjMtNzM5ZTUxN2M4NDU5IiwibWV0aG9kIjoidm9pcCIsInBhdGllbnROYW1lIjoiWmFyaWFoIFdhbmciLCJvdGhlclNldHRpbmdzIjp7IlVTRV9MTEFNQV9WMl9QUk9NUFRfRk9STUFUIjpmYWxzZSwiVVNFX0ZPTExPV19VUFNfSU5fS0lDS09VVF9QUk9NUFQiOmZhbHNlfX0=/?redirect",
+    "config": {
+      "phoneNumber": "",
+      "model": "gpt4",
+      "supportModel": "llama",
+      "llmStreaming": true,
+      "ttsStreaming": true,
+      "supportEngines": [
+        "dob-verification-engine",
+        "identity-verification-engine"
+      ],
+      "template": "neel_v2",
+      "tts": "eleven_labs_soft_gentle",
+      "asr": "dg-phonecall",
+      "scriptId": "02fe4cac-f41c-40ea-b323-739e517c8459",
+      "method": "voip",
+      "patientName": "Zariah Wang",
+      "otherSettings": {
+        "USE_LLAMA_V2_PROMPT_FORMAT": false,
+        "USE_FOLLOW_UPS_IN_KICKOUT_PROMPT": false
+      }
+    }
+  },
+  {
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/6e51d816-ef80-4ae4-8456-e4832d627092/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiZ3B0NCIsInN1cHBvcnRNb2RlbCI6ImxsYW1hIiwibGxtU3RyZWFtaW5nIjp0cnVlLCJ0dHNTdHJlYW1pbmciOnRydWUsInN1cHBvcnRFbmdpbmVzIjpbImRvYi12ZXJpZmljYXRpb24tZW5naW5lIiwiaWRlbnRpdHktdmVyaWZpY2F0aW9uLWVuZ2luZSJdLCJ0ZW1wbGF0ZSI6Im5lZWxfdjIiLCJ0dHMiOiJlbGV2ZW5fbGFic19zb2Z0X2dlbnRsZSIsImFzciI6ImRnLXBob25lY2FsbCIsInNjcmlwdElkIjoiMDJmZTRjYWMtZjQxYy00MGVhLWIzMjMtNzM5ZTUxN2M4NDU5IiwibWV0aG9kIjoidm9pcCIsInBhdGllbnROYW1lIjoiU2FpZ2UgV2FuZyIsIm90aGVyU2V0dGluZ3MiOnsiVVNFX0xMQU1BX1YyX1BST01QVF9GT1JNQVQiOmZhbHNlLCJVU0VfRk9MTE9XX1VQU19JTl9LSUNLT1VUX1BST01QVCI6ZmFsc2V9fQ==/?redirect",
+    "config": {
+      "phoneNumber": "",
+      "model": "gpt4",
+      "supportModel": "llama",
+      "llmStreaming": true,
+      "ttsStreaming": true,
+      "supportEngines": [
+        "dob-verification-engine",
+        "identity-verification-engine"
+      ],
+      "template": "neel_v2",
+      "tts": "eleven_labs_soft_gentle",
+      "asr": "dg-phonecall",
+      "scriptId": "02fe4cac-f41c-40ea-b323-739e517c8459",
+      "method": "voip",
+      "patientName": "Saige Wang",
+      "otherSettings": {
+        "USE_LLAMA_V2_PROMPT_FORMAT": false,
+        "USE_FOLLOW_UPS_IN_KICKOUT_PROMPT": false
+      }
+    }
+  },
+  {
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/4907424f-198b-4615-ab78-9c3ef6f73e4d/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiZ3B0NCIsInN1cHBvcnRNb2RlbCI6ImxsYW1hIiwibGxtU3RyZWFtaW5nIjp0cnVlLCJ0dHNTdHJlYW1pbmciOnRydWUsInN1cHBvcnRFbmdpbmVzIjpbImRvYi12ZXJpZmljYXRpb24tZW5naW5lIiwiaWRlbnRpdHktdmVyaWZpY2F0aW9uLWVuZ2luZSJdLCJ0ZW1wbGF0ZSI6Im5lZWxfdjIiLCJ0dHMiOiJlbGV2ZW5fbGFic19zb2Z0X2dlbnRsZSIsImFzciI6ImRnLXBob25lY2FsbCIsInNjcmlwdElkIjoiMDJmZTRjYWMtZjQxYy00MGVhLWIzMjMtNzM5ZTUxN2M4NDU5IiwibWV0aG9kIjoidm9pcCIsInBhdGllbnROYW1lIjoiQ2VsaWEgV2FuZyIsIm90aGVyU2V0dGluZ3MiOnsiVVNFX0xMQU1BX1YyX1BST01QVF9GT1JNQVQiOmZhbHNlLCJVU0VfRk9MTE9XX1VQU19JTl9LSUNLT1VUX1BST01QVCI6ZmFsc2V9fQ==/?redirect",
+    "config": {
+      "phoneNumber": "",
+      "model": "gpt4",
+      "supportModel": "llama",
+      "llmStreaming": true,
+      "ttsStreaming": true,
+      "supportEngines": [
+        "dob-verification-engine",
+        "identity-verification-engine"
+      ],
+      "template": "neel_v2",
+      "tts": "eleven_labs_soft_gentle",
+      "asr": "dg-phonecall",
+      "scriptId": "02fe4cac-f41c-40ea-b323-739e517c8459",
+      "method": "voip",
+      "patientName": "Celia Wang",
+      "otherSettings": {
+        "USE_LLAMA_V2_PROMPT_FORMAT": false,
+        "USE_FOLLOW_UPS_IN_KICKOUT_PROMPT": false
+      }
+    }
+  },
+  {
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/0cd7f98a-0ade-41e0-b937-43d8b60df05b/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiZ3B0NCIsInN1cHBvcnRNb2RlbCI6ImxsYW1hIiwibGxtU3RyZWFtaW5nIjp0cnVlLCJ0dHNTdHJlYW1pbmciOnRydWUsInN1cHBvcnRFbmdpbmVzIjpbImRvYi12ZXJpZmljYXRpb24tZW5naW5lIiwiaWRlbnRpdHktdmVyaWZpY2F0aW9uLWVuZ2luZSJdLCJ0ZW1wbGF0ZSI6Im5lZWxfdjIiLCJ0dHMiOiJlbGV2ZW5fbGFic19zb2Z0X2dlbnRsZSIsImFzciI6ImRnLXBob25lY2FsbCIsInNjcmlwdElkIjoiMDJmZTRjYWMtZjQxYy00MGVhLWIzMjMtNzM5ZTUxN2M4NDU5IiwibWV0aG9kIjoidm9pcCIsInBhdGllbnROYW1lIjoiS2lhcmEgV2FuZyIsIm90aGVyU2V0dGluZ3MiOnsiVVNFX0xMQU1BX1YyX1BST01QVF9GT1JNQVQiOmZhbHNlLCJVU0VfRk9MTE9XX1VQU19JTl9LSUNLT1VUX1BST01QVCI6ZmFsc2V9fQ==/?redirect",
+    "config": {
+      "phoneNumber": "",
+      "model": "gpt4",
+      "supportModel": "llama",
+      "llmStreaming": true,
+      "ttsStreaming": true,
+      "supportEngines": [
+        "dob-verification-engine",
+        "identity-verification-engine"
+      ],
+      "template": "neel_v2",
+      "tts": "eleven_labs_soft_gentle",
+      "asr": "dg-phonecall",
+      "scriptId": "02fe4cac-f41c-40ea-b323-739e517c8459",
+      "method": "voip",
+      "patientName": "Kiara Wang",
+      "otherSettings": {
+        "USE_LLAMA_V2_PROMPT_FORMAT": false,
+        "USE_FOLLOW_UPS_IN_KICKOUT_PROMPT": false
+      }
+    }
+  },
+  {
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/2e872135-88ca-4ef8-bdf7-383de55cdd65/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiZ3B0NCIsInN1cHBvcnRNb2RlbCI6ImxsYW1hIiwibGxtU3RyZWFtaW5nIjp0cnVlLCJ0dHNTdHJlYW1pbmciOnRydWUsInN1cHBvcnRFbmdpbmVzIjpbImRvYi12ZXJpZmljYXRpb24tZW5naW5lIiwiaWRlbnRpdHktdmVyaWZpY2F0aW9uLWVuZ2luZSJdLCJ0ZW1wbGF0ZSI6Im5lZWxfdjIiLCJ0dHMiOiJlbGV2ZW5fbGFic19zb2Z0X2dlbnRsZSIsImFzciI6ImRnLXBob25lY2FsbCIsInNjcmlwdElkIjoiMDJmZTRjYWMtZjQxYy00MGVhLWIzMjMtNzM5ZTUxN2M4NDU5IiwibWV0aG9kIjoidm9pcCIsInBhdGllbnROYW1lIjoiTWVsaW5hIFdhbmciLCJvdGhlclNldHRpbmdzIjp7IlVTRV9MTEFNQV9WMl9QUk9NUFRfRk9STUFUIjpmYWxzZSwiVVNFX0ZPTExPV19VUFNfSU5fS0lDS09VVF9QUk9NUFQiOmZhbHNlfX0=/?redirect",
+    "config": {
+      "phoneNumber": "",
+      "model": "gpt4",
+      "supportModel": "llama",
+      "llmStreaming": true,
+      "ttsStreaming": true,
+      "supportEngines": [
+        "dob-verification-engine",
+        "identity-verification-engine"
+      ],
+      "template": "neel_v2",
+      "tts": "eleven_labs_soft_gentle",
+      "asr": "dg-phonecall",
+      "scriptId": "02fe4cac-f41c-40ea-b323-739e517c8459",
+      "method": "voip",
+      "patientName": "Melina Wang",
+      "otherSettings": {
+        "USE_LLAMA_V2_PROMPT_FORMAT": false,
+        "USE_FOLLOW_UPS_IN_KICKOUT_PROMPT": false
+      }
+    }
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/6169fc4a-fa24-4b7e-9fad-ba36dc4b9af4/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiZ3B0NCIsInN1cHBvcnRNb2RlbCI6ImxsYW1hIiwibGxtU3RyZWFtaW5nIjp0cnVlLCJ0dHNTdHJlYW1pbmciOnRydWUsInN1cHBvcnRFbmdpbmVzIjpbImRvYi12ZXJpZmljYXRpb24tZW5naW5lIiwiaWRlbnRpdHktdmVyaWZpY2F0aW9uLWVuZ2luZSJdLCJ0ZW1wbGF0ZSI6Im5lZWxfdjIiLCJ0dHMiOiJlbGV2ZW5fbGFic19zb2Z0X2dlbnRsZSIsImFzciI6ImRnLXBob25lY2FsbCIsInNjcmlwdElkIjoiNGFjZWU0OGEtNjRkYy00YTJiLWIyODgtNjA1MjAxNWFiZWI3IiwibWV0aG9kIjoidm9pcCIsInBhdGllbnROYW1lIjoiVHJpc2hhIFJheW5pZXIiLCJvdGhlclNldHRpbmdzIjp7IlVTRV9MTEFNQV9WMl9QUk9NUFRfRk9STUFUIjpmYWxzZSwiVVNFX0ZPTExPV19VUFNfSU5fS0lDS09VVF9QUk9NUFQiOmZhbHNlfX0=/?redirect",
+    "config": {
+      "phoneNumber": "",
+      "model": "gpt4",
+      "supportModel": "llama",
+      "llmStreaming": true,
+      "ttsStreaming": true,
+      "supportEngines": [
+        "dob-verification-engine",
+        "identity-verification-engine"
+      ],
+      "template": "neel_v2",
+      "tts": "eleven_labs_soft_gentle",
+      "asr": "dg-phonecall",
+      "scriptId": "4acee48a-64dc-4a2b-b288-6052015abeb7",
+      "method": "voip",
+      "patientName": "Trisha Raynier",
+      "otherSettings": {
+        "USE_LLAMA_V2_PROMPT_FORMAT": false,
+        "USE_FOLLOW_UPS_IN_KICKOUT_PROMPT": false
+      }
+    }
+  },
+  {
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/13e6b2f5-e721-4980-b2a8-70f04e375ac0/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiZ3B0NCIsInN1cHBvcnRNb2RlbCI6ImxsYW1hIiwibGxtU3RyZWFtaW5nIjp0cnVlLCJ0dHNTdHJlYW1pbmciOnRydWUsInN1cHBvcnRFbmdpbmVzIjpbImRvYi12ZXJpZmljYXRpb24tZW5naW5lIiwiaWRlbnRpdHktdmVyaWZpY2F0aW9uLWVuZ2luZSJdLCJ0ZW1wbGF0ZSI6Im5lZWxfdjIiLCJ0dHMiOiJlbGV2ZW5fbGFic19zb2Z0X2dlbnRsZSIsImFzciI6ImRnLXBob25lY2FsbCIsInNjcmlwdElkIjoiNGFjZWU0OGEtNjRkYy00YTJiLWIyODgtNjA1MjAxNWFiZWI3IiwibWV0aG9kIjoidm9pcCIsInBhdGllbnROYW1lIjoiRGF2aWQgR3Jld2UiLCJvdGhlclNldHRpbmdzIjp7IlVTRV9MTEFNQV9WMl9QUk9NUFRfRk9STUFUIjpmYWxzZSwiVVNFX0ZPTExPV19VUFNfSU5fS0lDS09VVF9QUk9NUFQiOmZhbHNlfX0=/?redirect",
+    "config": {
+      "phoneNumber": "",
+      "model": "gpt4",
+      "supportModel": "llama",
+      "llmStreaming": true,
+      "ttsStreaming": true,
+      "supportEngines": [
+        "dob-verification-engine",
+        "identity-verification-engine"
+      ],
+      "template": "neel_v2",
+      "tts": "eleven_labs_soft_gentle",
+      "asr": "dg-phonecall",
+      "scriptId": "4acee48a-64dc-4a2b-b288-6052015abeb7",
+      "method": "voip",
+      "patientName": "David Grewe",
+      "otherSettings": {
+        "USE_LLAMA_V2_PROMPT_FORMAT": false,
+        "USE_FOLLOW_UPS_IN_KICKOUT_PROMPT": false
+      }
+    }
+  },
+  {
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/74e03b5e-a1c1-40ba-925a-5c08d84c6f2a/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiZ3B0NCIsInN1cHBvcnRNb2RlbCI6ImxsYW1hIiwibGxtU3RyZWFtaW5nIjp0cnVlLCJ0dHNTdHJlYW1pbmciOnRydWUsInN1cHBvcnRFbmdpbmVzIjpbImRvYi12ZXJpZmljYXRpb24tZW5naW5lIiwiaWRlbnRpdHktdmVyaWZpY2F0aW9uLWVuZ2luZSJdLCJ0ZW1wbGF0ZSI6Im5lZWxfdjIiLCJ0dHMiOiJlbGV2ZW5fbGFic19zb2Z0X2dlbnRsZSIsImFzciI6ImRnLXBob25lY2FsbCIsInNjcmlwdElkIjoiNGFjZWU0OGEtNjRkYy00YTJiLWIyODgtNjA1MjAxNWFiZWI3IiwibWV0aG9kIjoidm9pcCIsInBhdGllbnROYW1lIjoiSm9zZWYgTW9yYW4iLCJvdGhlclNldHRpbmdzIjp7IlVTRV9MTEFNQV9WMl9QUk9NUFRfRk9STUFUIjpmYWxzZSwiVVNFX0ZPTExPV19VUFNfSU5fS0lDS09VVF9QUk9NUFQiOmZhbHNlfX0=/?redirect",
+    "config": {
+      "phoneNumber": "",
+      "model": "gpt4",
+      "supportModel": "llama",
+      "llmStreaming": true,
+      "ttsStreaming": true,
+      "supportEngines": [
+        "dob-verification-engine",
+        "identity-verification-engine"
+      ],
+      "template": "neel_v2",
+      "tts": "eleven_labs_soft_gentle",
+      "asr": "dg-phonecall",
+      "scriptId": "4acee48a-64dc-4a2b-b288-6052015abeb7",
+      "method": "voip",
+      "patientName": "Josef Moran",
+      "otherSettings": {
+        "USE_LLAMA_V2_PROMPT_FORMAT": false,
+        "USE_FOLLOW_UPS_IN_KICKOUT_PROMPT": false
+      }
+    }
+  },
+  {
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/5b2f4c94-8654-43e8-addb-e26b6ecd5583/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiZ3B0NCIsInN1cHBvcnRNb2RlbCI6ImxsYW1hIiwibGxtU3RyZWFtaW5nIjp0cnVlLCJ0dHNTdHJlYW1pbmciOnRydWUsInN1cHBvcnRFbmdpbmVzIjpbImRvYi12ZXJpZmljYXRpb24tZW5naW5lIiwiaWRlbnRpdHktdmVyaWZpY2F0aW9uLWVuZ2luZSJdLCJ0ZW1wbGF0ZSI6Im5lZWxfdjIiLCJ0dHMiOiJlbGV2ZW5fbGFic19zb2Z0X2dlbnRsZSIsImFzciI6ImRnLXBob25lY2FsbCIsInNjcmlwdElkIjoiNGFjZWU0OGEtNjRkYy00YTJiLWIyODgtNjA1MjAxNWFiZWI3IiwibWV0aG9kIjoidm9pcCIsInBhdGllbnROYW1lIjoiRWxsZW4gU3RlZWxlIiwib3RoZXJTZXR0aW5ncyI6eyJVU0VfTExBTUFfVjJfUFJPTVBUX0ZPUk1BVCI6ZmFsc2UsIlVTRV9GT0xMT1dfVVBTX0lOX0tJQ0tPVVRfUFJPTVBUIjpmYWxzZX19/?redirect",
+    "config": {
+      "phoneNumber": "",
+      "model": "gpt4",
+      "supportModel": "llama",
+      "llmStreaming": true,
+      "ttsStreaming": true,
+      "supportEngines": [
+        "dob-verification-engine",
+        "identity-verification-engine"
+      ],
+      "template": "neel_v2",
+      "tts": "eleven_labs_soft_gentle",
+      "asr": "dg-phonecall",
+      "scriptId": "4acee48a-64dc-4a2b-b288-6052015abeb7",
+      "method": "voip",
+      "patientName": "Ellen Steele",
+      "otherSettings": {
+        "USE_LLAMA_V2_PROMPT_FORMAT": false,
+        "USE_FOLLOW_UPS_IN_KICKOUT_PROMPT": false
+      }
+    }
+  },
+  {
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/50fc03c1-7d79-44b6-bbaf-a7eb90bad0df/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiZ3B0NCIsInN1cHBvcnRNb2RlbCI6ImxsYW1hIiwibGxtU3RyZWFtaW5nIjp0cnVlLCJ0dHNTdHJlYW1pbmciOnRydWUsInN1cHBvcnRFbmdpbmVzIjpbImRvYi12ZXJpZmljYXRpb24tZW5naW5lIiwiaWRlbnRpdHktdmVyaWZpY2F0aW9uLWVuZ2luZSJdLCJ0ZW1wbGF0ZSI6Im5lZWxfdjIiLCJ0dHMiOiJlbGV2ZW5fbGFic19zb2Z0X2dlbnRsZSIsImFzciI6ImRnLXBob25lY2FsbCIsInNjcmlwdElkIjoiNGFjZWU0OGEtNjRkYy00YTJiLWIyODgtNjA1MjAxNWFiZWI3IiwibWV0aG9kIjoidm9pcCIsInBhdGllbnROYW1lIjoiU2ltb25lIE1jS2xvc2tleSIsIm90aGVyU2V0dGluZ3MiOnsiVVNFX0xMQU1BX1YyX1BST01QVF9GT1JNQVQiOmZhbHNlLCJVU0VfRk9MTE9XX1VQU19JTl9LSUNLT1VUX1BST01QVCI6ZmFsc2V9fQ==/?redirect",
+    "config": {
+      "phoneNumber": "",
+      "model": "gpt4",
+      "supportModel": "llama",
+      "llmStreaming": true,
+      "ttsStreaming": true,
+      "supportEngines": [
+        "dob-verification-engine",
+        "identity-verification-engine"
+      ],
+      "template": "neel_v2",
+      "tts": "eleven_labs_soft_gentle",
+      "asr": "dg-phonecall",
+      "scriptId": "4acee48a-64dc-4a2b-b288-6052015abeb7",
+      "method": "voip",
+      "patientName": "Simone McKloskey",
+      "otherSettings": {
+        "USE_LLAMA_V2_PROMPT_FORMAT": false,
+        "USE_FOLLOW_UPS_IN_KICKOUT_PROMPT": false
+      }
+    }
+  },
+  {
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/110528f1-98ae-41b2-a5e0-3d2a157f41e7/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiZ3B0NCIsInN1cHBvcnRNb2RlbCI6ImxsYW1hIiwibGxtU3RyZWFtaW5nIjp0cnVlLCJ0dHNTdHJlYW1pbmciOnRydWUsInN1cHBvcnRFbmdpbmVzIjpbImRvYi12ZXJpZmljYXRpb24tZW5naW5lIiwiaWRlbnRpdHktdmVyaWZpY2F0aW9uLWVuZ2luZSJdLCJ0ZW1wbGF0ZSI6Im5lZWxfdjIiLCJ0dHMiOiJlbGV2ZW5fbGFic19zb2Z0X2dlbnRsZSIsImFzciI6ImRnLXBob25lY2FsbCIsInNjcmlwdElkIjoiNGFjZWU0OGEtNjRkYy00YTJiLWIyODgtNjA1MjAxNWFiZWI3IiwibWV0aG9kIjoidm9pcCIsInBhdGllbnROYW1lIjoiSm9obiBPJ0xlYXJ5Iiwib3RoZXJTZXR0aW5ncyI6eyJVU0VfTExBTUFfVjJfUFJPTVBUX0ZPUk1BVCI6ZmFsc2UsIlVTRV9GT0xMT1dfVVBTX0lOX0tJQ0tPVVRfUFJPTVBUIjpmYWxzZX19/?redirect",
+    "config": {
+      "phoneNumber": "",
+      "model": "gpt4",
+      "supportModel": "llama",
+      "llmStreaming": true,
+      "ttsStreaming": true,
+      "supportEngines": [
+        "dob-verification-engine",
+        "identity-verification-engine"
+      ],
+      "template": "neel_v2",
+      "tts": "eleven_labs_soft_gentle",
+      "asr": "dg-phonecall",
+      "scriptId": "4acee48a-64dc-4a2b-b288-6052015abeb7",
+      "method": "voip",
+      "patientName": "John O'Leary",
+      "otherSettings": {
+        "USE_LLAMA_V2_PROMPT_FORMAT": false,
+        "USE_FOLLOW_UPS_IN_KICKOUT_PROMPT": false
+      }
+    }
+  },
+  {
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/ddbe4247-2aa4-41ac-984b-32985e8df7ad/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiZ3B0NCIsInN1cHBvcnRNb2RlbCI6ImxsYW1hIiwibGxtU3RyZWFtaW5nIjp0cnVlLCJ0dHNTdHJlYW1pbmciOnRydWUsInN1cHBvcnRFbmdpbmVzIjpbImRvYi12ZXJpZmljYXRpb24tZW5naW5lIiwiaWRlbnRpdHktdmVyaWZpY2F0aW9uLWVuZ2luZSJdLCJ0ZW1wbGF0ZSI6Im5lZWxfdjIiLCJ0dHMiOiJlbGV2ZW5fbGFic19zb2Z0X2dlbnRsZSIsImFzciI6ImRnLXBob25lY2FsbCIsInNjcmlwdElkIjoiNGFjZWU0OGEtNjRkYy00YTJiLWIyODgtNjA1MjAxNWFiZWI3IiwibWV0aG9kIjoidm9pcCIsInBhdGllbnROYW1lIjoiRGFuaWVsIEppbWVuZXoiLCJvdGhlclNldHRpbmdzIjp7IlVTRV9MTEFNQV9WMl9QUk9NUFRfRk9STUFUIjpmYWxzZSwiVVNFX0ZPTExPV19VUFNfSU5fS0lDS09VVF9QUk9NUFQiOmZhbHNlfX0=/?redirect",
+    "config": {
+      "phoneNumber": "",
+      "model": "gpt4",
+      "supportModel": "llama",
+      "llmStreaming": true,
+      "ttsStreaming": true,
+      "supportEngines": [
+        "dob-verification-engine",
+        "identity-verification-engine"
+      ],
+      "template": "neel_v2",
+      "tts": "eleven_labs_soft_gentle",
+      "asr": "dg-phonecall",
+      "scriptId": "4acee48a-64dc-4a2b-b288-6052015abeb7",
+      "method": "voip",
+      "patientName": "Daniel Jimenez",
+      "otherSettings": {
+        "USE_LLAMA_V2_PROMPT_FORMAT": false,
+        "USE_FOLLOW_UPS_IN_KICKOUT_PROMPT": false
+      }
+    }
+  },
+  {
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/1d200489-a0e5-42c8-98a1-f2cef912ba1c/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiZ3B0NCIsInN1cHBvcnRNb2RlbCI6ImxsYW1hIiwibGxtU3RyZWFtaW5nIjp0cnVlLCJ0dHNTdHJlYW1pbmciOnRydWUsInN1cHBvcnRFbmdpbmVzIjpbImRvYi12ZXJpZmljYXRpb24tZW5naW5lIiwiaWRlbnRpdHktdmVyaWZpY2F0aW9uLWVuZ2luZSJdLCJ0ZW1wbGF0ZSI6Im5lZWxfdjIiLCJ0dHMiOiJlbGV2ZW5fbGFic19zb2Z0X2dlbnRsZSIsImFzciI6ImRnLXBob25lY2FsbCIsInNjcmlwdElkIjoiNGFjZWU0OGEtNjRkYy00YTJiLWIyODgtNjA1MjAxNWFiZWI3IiwibWV0aG9kIjoidm9pcCIsInBhdGllbnROYW1lIjoiUmVuZWUgU3BlbmNlIiwib3RoZXJTZXR0aW5ncyI6eyJVU0VfTExBTUFfVjJfUFJPTVBUX0ZPUk1BVCI6ZmFsc2UsIlVTRV9GT0xMT1dfVVBTX0lOX0tJQ0tPVVRfUFJPTVBUIjpmYWxzZX19/?redirect",
+    "config": {
+      "phoneNumber": "",
+      "model": "gpt4",
+      "supportModel": "llama",
+      "llmStreaming": true,
+      "ttsStreaming": true,
+      "supportEngines": [
+        "dob-verification-engine",
+        "identity-verification-engine"
+      ],
+      "template": "neel_v2",
+      "tts": "eleven_labs_soft_gentle",
+      "asr": "dg-phonecall",
+      "scriptId": "4acee48a-64dc-4a2b-b288-6052015abeb7",
+      "method": "voip",
+      "patientName": "Renee Spence",
+      "otherSettings": {
+        "USE_LLAMA_V2_PROMPT_FORMAT": false,
+        "USE_FOLLOW_UPS_IN_KICKOUT_PROMPT": false
+      }
+    }
+  },
+  {
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/3936e1be-9961-493c-845f-bca2e229d033/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiZ3B0NCIsInN1cHBvcnRNb2RlbCI6ImxsYW1hIiwibGxtU3RyZWFtaW5nIjp0cnVlLCJ0dHNTdHJlYW1pbmciOnRydWUsInN1cHBvcnRFbmdpbmVzIjpbImRvYi12ZXJpZmljYXRpb24tZW5naW5lIiwiaWRlbnRpdHktdmVyaWZpY2F0aW9uLWVuZ2luZSJdLCJ0ZW1wbGF0ZSI6Im5lZWxfdjIiLCJ0dHMiOiJlbGV2ZW5fbGFic19zb2Z0X2dlbnRsZSIsImFzciI6ImRnLXBob25lY2FsbCIsInNjcmlwdElkIjoiNGFjZWU0OGEtNjRkYy00YTJiLWIyODgtNjA1MjAxNWFiZWI3IiwibWV0aG9kIjoidm9pcCIsInBhdGllbnROYW1lIjoiUGF4dG9uIFdpbm5lciIsIm90aGVyU2V0dGluZ3MiOnsiVVNFX0xMQU1BX1YyX1BST01QVF9GT1JNQVQiOmZhbHNlLCJVU0VfRk9MTE9XX1VQU19JTl9LSUNLT1VUX1BST01QVCI6ZmFsc2V9fQ==/?redirect",
+    "config": {
+      "phoneNumber": "",
+      "model": "gpt4",
+      "supportModel": "llama",
+      "llmStreaming": true,
+      "ttsStreaming": true,
+      "supportEngines": [
+        "dob-verification-engine",
+        "identity-verification-engine"
+      ],
+      "template": "neel_v2",
+      "tts": "eleven_labs_soft_gentle",
+      "asr": "dg-phonecall",
+      "scriptId": "4acee48a-64dc-4a2b-b288-6052015abeb7",
+      "method": "voip",
+      "patientName": "Paxton Winner",
+      "otherSettings": {
+        "USE_LLAMA_V2_PROMPT_FORMAT": false,
+        "USE_FOLLOW_UPS_IN_KICKOUT_PROMPT": false
+      }
+    }
+  }
+]

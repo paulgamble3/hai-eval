@@ -1,0 +1,5 @@
+,Ambient Noise,Concise,Drug ASR Input,End on a Question,Interrupt,Medical Tangents,Mr & Mrs,Non-medical Tangents,Overall,Paraphrasing,Polite,Previous Call,Pronouncing Drug Names,Pronouncing Numbers,Rapport,Repetition,Speed,Symptom Drill Down,Tell vs Ask,Weird Order Statements,blinded,call_id,comments,include,model,username
+0,Yes,No,No,No,Yes,No,No,No,1,She paraphrased,No,No,No,No,No,Yes,No,No,She told me,No,True,asdgsadg,,Yes,MODEL_C8,pg-test
+1,Yes,No,No,No,Yes,No,No,No,1,She paraphrased,No,No,No,No,No,Yes,No,No,She told me,No,True,another_id,,Yes,MODEL_C8,pg-test
+2,Yes,No,No,No,Yes,No,No,No,1,She paraphrased,No,No,No,No,No,Yes,No,No,She told me,No,False,another test,,Yes,MODEL_D5_LEPTON,pg-test
+3,No,Yes,Yes,Yes,No,Yes,Yes,Yes,6,She repeated verbatim,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,She asked me,Yes,False,zdgs,,Yes,MODEL_D5_LEPTON,danny
