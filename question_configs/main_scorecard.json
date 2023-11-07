@@ -18,12 +18,12 @@
         {
             "key":"Tell vs Ask",
             "question":"Did Rachel tell you things she should know from the record, or did she ask you for them?",
-            "answer_choices":["She told me", "She asked me"]
+            "answer_choices":["She asked me", "She told me"]
         },
         {
             "key":"Paraphrasing",
             "question":"Did Rachel appropriately paraphrase your statements, instead of repeating them verbatim?",
-            "answer_choices":["She paraphrased", "She repeated verbatim"]
+            "answer_choices":["She repeated verbatim", "She paraphrased"]
         },
         {
             "key":"Weird Order Statements",
@@ -57,7 +57,7 @@
         },
         {
             "key":"Symptom Drill Down",
-            "question":"Did Rachel drill down on any symptoms you mentioned?",
+            "question":"Did Rachel thoroughly assess any symptoms that you mentioned?",
             "answer_choices":["No", "Yes"]
         },
         {

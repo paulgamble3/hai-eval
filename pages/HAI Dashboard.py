@@ -17,9 +17,28 @@ def load_all_data():
 def cache_data(results_df):
     results_df.to_csv("./data/current_results.csv")
 
+def conditional_formatting(val):
+    min_val = 0.1
+    max_val = 0.9
+
+
+
+    percent = (val - min_val) / (max_val - min_val)
+    percent = max(0, min(1, percent))
+
+
+    max_color = [68,177,118]
+    min_color = [230, 124, 115]
+
+    r = int(min_color[0] + percent * (max_color[0] - min_color[0]))
+    g = int(min_color[1] + percent * (max_color[1] - min_color[1]))
+    b = int(min_color[2] + percent * (max_color[2] - min_color[2]))
+    c = f'background-color: rgb({r}, {g}, {b})'
+    return c
+
 
 st.set_page_config(layout="wide")
-st.write("FAKE DATA")
+st.header("UNDER CONSTRUCTION")
 
 
 
@@ -64,15 +83,14 @@ if blinded == "Yes":
 # convert each cell to a 1 or 0 based on good or not
 # need to keep track of the not asessed count
 
-#filtered_df["Overall"] = pd.to_numeric(filtered_df["Overall"], downcast='float')
-print("OVERALL:", filtered_df["Overall"])
+
 questions = json.load(open("./question_configs/main_scorecard.json"))
 for q in questions["Model"] + questions["System"]:
     if q["key"] == "Overall":
         filtered_df[q["key"]] = filtered_df[q["key"]].astype(float) / 7.0
         continue
     # this is assuming 0 is bad and 1 is good
-    filtered_df[q["key"]] = filtered_df[q["key"]] == q["answer_choices"][0]
+    filtered_df[q["key"]] = filtered_df[q["key"]] == q["answer_choices"][1]
     filtered_df[q["key"]] = filtered_df[q["key"]].astype(int)
 
 
@@ -111,10 +129,16 @@ print(model_scores)
 # TODO all scores should be % good response
 
 
+
+
 model_df = pd.DataFrame(model_scores, columns = models, index=row_names["Model"])
+model_df = model_df.style.applymap(conditional_formatting)
+
+
 st.header("Model Scores")
 st.table(model_df)
 
 system_df = pd.DataFrame(system_scores, columns = models, index=row_names["System"])
+system_df = system_df.style.applymap(conditional_formatting)
 st.header("System Scores")
 st.table(system_df)

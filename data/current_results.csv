@@ -1,5 +1,57 @@
 ,Ambient Noise,Concise,Drug ASR Input,End on a Question,Interrupt,Medical Tangents,Mr & Mrs,Non-medical Tangents,Overall,Paraphrasing,Polite,Previous Call,Pronouncing Drug Names,Pronouncing Numbers,Rapport,Repetition,Speed,Symptom Drill Down,Tell vs Ask,Weird Order Statements,blinded,call_id,comments,include,model,username
-0,Yes,No,No,No,Yes,No,No,No,1,She paraphrased,No,No,No,No,No,Yes,No,No,She told me,No,True,asdgsadg,,Yes,MODEL_C8,pg-test
-1,Yes,No,No,No,Yes,No,No,No,1,She paraphrased,No,No,No,No,No,Yes,No,No,She told me,No,True,another_id,,Yes,MODEL_C8,pg-test
-2,Yes,No,No,No,Yes,No,No,No,1,She paraphrased,No,No,No,No,No,Yes,No,No,She told me,No,False,another test,,Yes,MODEL_D5_LEPTON,pg-test
-3,No,Yes,Yes,Yes,No,Yes,Yes,Yes,6,She repeated verbatim,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,She asked me,Yes,False,zdgs,,Yes,MODEL_D5_LEPTON,danny
+0,No,Yes,Yes,Yes,No,Yes,No,Yes,4,She paraphrased,Yes,Not assessed,Yes,Yes,Yes,Yes,Yes,Yes,She told me,Yes,True,3c039f90-d31b-4f7d-af36-82de6dad1878,"She was doing great and then started asking the same questions again about medications, diet, fluid intake, and sleeping.",Yes,llama70b-sft-gpt4-annotated-checklist-10-25,Luba Roniss
+1,No,Yes,Yes,Yes,No,Yes,No,Yes,6,She paraphrased,Yes,Not assessed,Yes,Yes,Yes,No,Yes,No,She asked me,Yes,True,fb002460-5dae-4633-86b1-8eba16447ff5,"subjectively very good professional straight to the point call.  One thing I would just like to point out, (if rachel has all the time in the world to talk to people, perhaps she should listen to people a little bit more after confirming all pertinent details) JUST A THOUGHT. See below her response.  Perhaps, she could've offered to listen to patient at the end of the call!
+
+
+Patient: Yeah. That's awesome. Do you mind if I tell you a little story about out my tennis career,
+
+Rachel: I'm sure it's a great story, Janet, but I need to make sure we cover all the necessary information for your colonoscopy. Could we save your story for another time?",Yes,MODEL_D5_LEPTON,Luba Roniss
+2,No,Yes,Yes,Yes,No,No,No,Yes,5,She paraphrased,Yes,Not assessed,Yes,Yes,Yes,No,Yes,No,She told me,Not assessed,True,72050d0b-946e-4f52-99b3-e896b8dd1999,,Yes,MODEL_D5_LEPTON,sophia busacca
+3,No,Yes,Yes,Yes,No,Yes,Yes,Yes,6,She paraphrased,Yes,Not assessed,Yes,Yes,Yes,No,Yes,No,She told me,Yes,True,16bcbe6c-3bdd-49a6-84a7-80cb768531c4,really great call! Rachel did very well with listening to patients old memories and incorporating them!,Yes,gpt4,Luba Roniss
+4,Yes,Yes,Yes,Yes,No,Yes,No,Not assessed,6,She paraphrased,Yes,No,Yes,Yes,No,No,Yes,No,She asked me,No,True,38b10cd3-f761-4401-ad32-6000d49040d9,There was one moment that she heard a response when I did not speak.,Yes,MODEL_D5_LEPTON,jenny paul
+5,No,Yes,Yes,Yes,No,Yes,Yes,Yes,6,She paraphrased,Yes,Not assessed,Yes,Yes,Yes,No,Yes,No,She told me,Yes,True,cd667267-8ba8-429e-a395-84ff9eafe794,"Great, except she kept referring to hypertension as H-T-N and that is not what a nurse would say to a patient. they would either refer to it as high blood pressure or the actual term hypertension. ",Yes,gpt4,Luba Roniss
+6,No,No,Yes,Yes,No,Yes,No,Yes,4,She paraphrased,Yes,Not assessed,Yes,Yes,Yes,Yes,Yes,Yes,She asked me,No,True,cf92c0ac-6294-4341-82b9-b72ab328c1e0,"During the s/s assessment kept saying "" Now, have you noticed"" in front of every question she posed. 
+
+Repeated, ""Just remember to listen to your body and not overdo it. Now, I'd like to talk about your medications. Are you taking them as prescribed?"" 
+
+Mushed all meds together: 
+Alright, that's good. Now, I'd like to remind you about your medications. You're currently prescribed Hydrochlorothiazide, 25 mg oral tablet, which you should take twice a day. You also have an Albuterol inhaler, which you should use as needed. Additionally, you're taking Fluticasone, 110 mcg once a day, and Metoprolol, 25 mg oral tablet, which you should take once a day. Are you taking all of these medications as prescribed?",Yes,llama70b-sft-gpt4-annotated-checklist-10-25,sophia busacca
+7,No,Yes,Yes,Yes,No,Not assessed,No,Not assessed,5,She paraphrased,Yes,Not assessed,Yes,Yes,Yes,No,Yes,Yes,She told me,Yes,True,63c965f3-f13d-4d91-ab7b-fdd2b31aab5d,"she was appropriately concise except one area, when she was explaining chlorhexidine scrub it was very wordy,
+
+Also, when she asked if there's anything the patient was looking forward to after knee surgery it sounded very forced and not natural. ",Yes,gpt4,Luba Roniss
+8,No,Yes,Yes,Yes,No,Not assessed,No,Yes,6,She paraphrased,Yes,No,Yes,Yes,Yes,No,Yes,No,She asked me,No,True,10b4d8fd-2b9c-4352-8068-0e53c82a668d,Her cadence was a bit off a couple of times. ,Yes,gpt4,jenny paul
+9,No,Yes,Yes,Yes,No,Not assessed,Yes,Not assessed,5,She paraphrased,Yes,Not assessed,Yes,Yes,Yes,No,Yes,No,She told me,Yes,True,4de0d0e6-595b-4409-b437-508ab7742061,"one of her sentences, just had too much going on: acknowledging feelings, reminding of date, time, and asking about symptoms. too much. 
+
+""I'm glad to hear that, Mr. Jimenez. It's completely normal to have a mix of feelings before a procedure like this. Now, I want to remind you that your procedure is scheduled for August 13, 2023, at 8:00 AM. Have you been experiencing any fever, chills, or muscle aches recently?""   ",Yes,gpt4,Luba Roniss
+10,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,6,She paraphrased,Yes,No,No,Yes,Yes,No,Yes,No,She told me,No,True,4968c76d-da30-4e80-9b31-a49948138e98,She pronounced Lisinopril strangely.,Yes,MODEL_C8,jenny paul
+11,No,Yes,Yes,Yes,No,Not assessed,No,Not assessed,6,She paraphrased,Yes,Not assessed,Yes,Yes,Yes,No,Yes,No,She told me,Yes,True,87facaf0-f9db-47a0-b50f-dac28e499524,"great, normal. neutral. professional. ",Yes,gpt4,Luba Roniss
+12,No,No,Yes,Yes,Yes,Yes,No,No,5,She paraphrased,Yes,Not assessed,Yes,No,No,No,Yes,No,She asked me,No,True,dce8b705-7d60-44dc-a83e-b27bdcca7a3a,She said nine hundred and eleven instead of nine one one,No,gpt4,jenny paul
+13,No,Yes,Yes,Yes,No,Yes,No,Yes,5,She paraphrased,Yes,Not assessed,Yes,Yes,Yes,Yes,Yes,Yes,She told me,Yes,True,,"Was going great, but then Rachel did not want to get off the phone and started repeating her questions in the end:
+
+Alright, I'm glad to hear that. Remember, if you have any questions or concerns at any time, don't hesitate to reach out. You can call us back at this number: 641-381-6523. Is there anything else you'd like to discuss today?
+
+No, thank you.
+
+You're welcome. I'm glad I could help. Just to confirm, you're comfortable with your current medication and dietary plan, and you're monitoring your symptoms and weight as recommended?
+
+Yes. I am. Thanks.
+
+That's great to hear. It's essential to keep up with these measures to manage your CHF effectively. Now, do you have any other questions or concerns about your condition or your treatment plan?
+
+Well, no more questions.
+
+That's great to hear. It's critical to keep up with these measures to manage your CHF effectively. Now, I'd like to discuss your next steps. Are you clear on what to do if you experience any sudden changes in your symptoms?",Yes,llama70b-sft-gpt4-annotated-checklist-10-25,Luba Roniss
+14,No,Yes,Yes,Yes,No,Yes,No,Not assessed,5,She paraphrased,Yes,Not assessed,Yes,Yes,No,No,Yes,No,She asked me,No,True,90b04c37-f88c-4890-aa6e-7b97616d05da,,Yes,gpt4,jenny paul
+15,No,Yes,Yes,Yes,No,Yes,No,Yes,6,She paraphrased,Yes,Not assessed,Yes,Yes,Yes,No,Yes,Yes,She asked me,Yes,True,476ad75a-d3ad-4995-a80a-e06345fd579d,,Yes,MODEL_C8,Luba Roniss
+16,No,Yes,Yes,Yes,No,Yes,No,Not assessed,6,She paraphrased,Yes,Not assessed,Yes,Yes,Yes,No,Yes,No,She asked me,No,True,143bd856-bfe1-49e4-9ebd-f8788a317c0d,,Yes,MODEL_D5_LEPTON,jenny paul
+17,No,Yes,Yes,Yes,No,Not assessed,No,Not assessed,4,She paraphrased,Yes,Not assessed,Yes,Yes,Yes,Yes,Yes,Yes,She told me,Yes,True,c17ce0df-e33a-4be8-a180-b395eff2762e,"she started repeating questions about stress, diet, exercise. ",Yes,llama70b-sft-gpt4-annotated-checklist-10-25,Luba Roniss
+18,No,No,Yes,Yes,Yes,Yes,Yes,Yes,5,She paraphrased,Yes,No,Yes,Yes,No,Yes,No,No,She asked me,No,True,9c2e9bd4-76e9-4af3-bd8c-8397668bd50a,"This happened in the middle of the coversation: I'm sorry, an error has occurred, LLM inference failed because of ChunkedEncodingError for model MODEL_C8
+After that happened, she started repeating things and there was a lag in the dialog. ",No,MODEL_C8,jenny paul
+19,No,Yes,No,Yes,No,Yes,No,Yes,3,She paraphrased,Yes,Not assessed,No,No,No,Yes,Yes,Yes,She told me,No,True,88095666-a72f-4db3-89a6-6b83c83835f8,"Kept asking me if i was taking my meds orally which got to be strange. Said ""i understand"" too many times.  Going through the meds was tedious. Did a good chf assessment. ",Yes,MODEL_C8,michelle voisard
+20,Yes,Yes,No,Yes,No,Yes,No,No,3,She paraphrased,No,Not assessed,No,Yes,No,No,Yes,Yes,She asked me,Not assessed,True,7534505d-8d7d-4800-9668-8c889a6b1470,"Says ""crucial"" ""it's important"" ""essential"" a lot which is off-putting to patients.  Appropriately asked about how i was feeling and symptoms of covid - nice ",Yes,llama70b-sft-gpt4-annotated-checklist-10-25,michelle voisard
+21,No,Yes,Yes,Yes,No,Yes,No,Yes,6,She paraphrased,Yes,Not assessed,Yes,Yes,Yes,No,Yes,Yes,She asked me,Yes,True,d0186732-ab1f-4e76-9c4f-b6435a0c1b05,,Yes,llama70b-sft-gpt4-annotated-checklist-10-25,Luba Roniss
+22,No,Yes,No,Yes,No,No,No,No,4,She repeated verbatim,Yes,No,No,No,No,No,Yes,No,She asked me,Yes,True,3be7e87d-0e38-4948-8c57-62d2e93c9ebe,,Yes,MODEL_C8,Paul G
+23,No,No,Yes,No,No,Not assessed,No,Yes,5,She paraphrased,Yes,Not assessed,Yes,Yes,Yes,No,Yes,Yes,She asked me,No,True,bf8a0ec9-2769-481a-8bf8-e5b51f352c91,"Conintued to say ""essential"" but otherwise a good call. She wanted me to go over my diet for the last few days and I told her that was too time consuming.  She let me hang up. ",Yes,gpt4,michelle voisard
+24,No,Yes,Yes,Yes,No,Yes,No,Yes,6,She paraphrased,Yes,Not assessed,Yes,Yes,Yes,No,Yes,Yes,She told me,Yes,True,e81cf44d-8e9c-43f9-a5b5-6ac9adb35ac9,,Yes,llama70b-sft-gpt4-annotated-checklist-10-25,Luba Roniss
+25,No,Yes,Yes,Yes,Yes,Yes,No,No,5,She paraphrased,Yes,No,Yes,No,Yes,Yes,Yes,No,She asked me,Yes,True,fe967ecd-7f1d-49ac-bc4e-065451910936,,Yes,llama70b-sft-gpt4-annotated-checklist-10-25,Paul G
+26,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,6,She paraphrased,Yes,Yes,No,No,Yes,No,No,Yes,She told me,Yes,True,c1a61df9-bf73-4381-a1c3-5a74e5724bab,,Yes,gpt4,Paul G

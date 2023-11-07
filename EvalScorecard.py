@@ -9,6 +9,8 @@ display_names = json.load(open("./app_configs/display_names.json"))
 
 questions = json.load(open("./question_configs/main_scorecard.json"))
 
+st.title("HAI Eval Scorecard")
+
 with st.form("test-form"):
 
     def generate_url(models, scripts):
@@ -33,6 +35,8 @@ with st.form("test-form"):
     model_list = url_elements["models"]
     script_list = url_elements["script_names"]
 
+    st.write("Select the models and scripts from which you'd like to sample a call URL. All patients from a given script will be included. Only calls sampled from **all** active models will be considered blinded for eval filtering purposes.")
+
 
     models = st.multiselect(
         'Select models to sample:',
@@ -49,7 +53,7 @@ with st.form("test-form"):
     # need to have these pre-generated and stored somewhere
 
     submitted = st.form_submit_button("Generate URL")
-
+    st.session_state.blinded = True
     if submitted:
         url_config = generate_url(models, scripts)
         url= url_config["url"]
@@ -57,6 +61,7 @@ with st.form("test-form"):
         #st.write(url)
         st.session_state.blinded = set(models) == set(model_list)
         st.header(f"[Call Page]({url})")
+        st.write("(In the call app, you may have to click the Call button twice.)")
 
 with st.form("feedback-form"):
 
@@ -92,6 +97,8 @@ with st.form("feedback-form"):
 
     username = st.text_input("Enter your name:", key="username")
     call_id = st.text_input("Paste the call ID:", key="call_id")
+
+    st.write("For each of the questions below, the left-most response (selected by default on form reload) indicates **bad** performance by the model.")
 
     st.header("Model")
 
