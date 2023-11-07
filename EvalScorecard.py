@@ -61,7 +61,7 @@ with st.form("test-form"):
         #st.write(url)
         st.session_state.blinded = set(models) == set(model_list)
         st.header(f"[Call Page]({url})")
-        st.write("(In the call app, you may have to click the Call button twice.)")
+        st.write("(In the app, you may have to click the Call button twice.)")
 
 with st.form("feedback-form"):
 
